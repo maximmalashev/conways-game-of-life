@@ -1,0 +1,6 @@
+﻿sfml-window-s.lib(JoystickImpl.cpp.obj) : error LNK2001: неразрешенный внешний символ "__imp__joyGetPosEx@8"
+sfml-window-s.lib(JoystickImpl.cpp.obj) : error LNK2001: неразрешенный внешний символ "__imp__joyGetDevCapsW@12"
+sfml-system-s.lib(SleepImpl.cpp.obj) : error LNK2001: неразрешенный внешний символ "__imp__timeGetDevCaps@8"
+sfml-system-s.lib(SleepImpl.cpp.obj) : error LNK2001: неразрешенный внешний символ "__imp__timeBeginPeriod@4"
+sfml-system-s.lib(SleepImpl.cpp.obj) : error LNK2001: неразрешенный внешний символ "__imp__timeEndPeriod@4"
+D:\Programming\C++\Visual Studio Projects\GameOfLife\Release\GameOfLife.exe : fatal error LNK1120: неразрешенных внешних элементов: 5
