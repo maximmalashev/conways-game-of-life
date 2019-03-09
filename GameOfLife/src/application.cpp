@@ -2,9 +2,9 @@
 
 void Application::init()
 {
-	mainWindow = new sf::RenderWindow(sf::VideoMode(500, 500), "Conway's Game of Life");
+	mainWindow = new sf::RenderWindow(sf::VideoMode(700, 700), "Conway's Game of Life");
 	mainWindow->setFramerateLimit(30);
-	game = new Game(mainWindow, 50, 50);
+	game = new Game(mainWindow, 100, 100);
 	game->background = sf::Color(255, 255, 255, 255); // white
 }
 
